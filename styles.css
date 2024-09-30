@@ -1,0 +1,17 @@
+/*@font-face {
+    font-family: 'ExampleFont';
+    src: url('fonts/example-font.woff2') format('woff2'),
+         url('fonts/example-font.woff') format('woff'),
+         url('fonts/example-font.ttf') format('truetype'),
+         url('fonts/example-font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+
+body {
+    background-color: #e0d1d1;
+    /*font-family: "ExampleFont", sans-serif;*/
+
+}
