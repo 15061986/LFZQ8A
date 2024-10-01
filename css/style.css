@@ -1,7 +1,1 @@
-body {
-  background-color: #4CAF50;
-  font-family: Arial, sans-serif;
-}
-body h1 {
-  color: #08211e;
-}
+@font-face{font-family:"AlexBrush-Regular";src:url("../fonts/AlexBrush-Regular.ttf") format("truetype")}body{background-color:#9692cf}h1{color:#08211e}

@@ -1,11 +1,20 @@
 // Definiere eine Variable für die Hauptfarbe
-@primary-color: #4CAF50;
+@primary-color: #534caf;
+
+@color: lighten(@primary-color, 20%); // Helleres Blau
+//@color: darken(#3498db, 20%); // Dunkleres Blau
+//@mixed-color: mix(#ff0000, #0000ff); // Mischt Rot und Blau zu Violett
+
+
+@font-face {
+    font-family: "AlexBrush-Regular";
+    src: url("../fonts/AlexBrush-Regular.ttf") format("truetype");
+}
 
 body {
-    background-color: @primary-color; // Setzt die Hintergrundfarbe auf die Hauptfarbe
-    font-family: Arial, sans-serif;
+    background-color: @color; // Setzt die Hintergrundfarbe auf die Hauptfarbe
+}
 
-    h1 {
-        color: rgb(8, 33, 30);
-    }
+h1 {
+    color: rgb(8, 33, 30);
 }
