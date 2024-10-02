@@ -1,1 +1,127 @@
-@font-face{font-family:"AlexBrush-Regular";src:url("../fonts/AlexBrush-Regular.ttf") format("truetype")}body{background-color:#9692cf}h1{color:#08211e}
+@font-face {
+  font-family: "AlexBrush-Regular";
+  src: url("../fonts/AlexBrush-Regular.ttf") format("truetype")
+}
+
+body {
+  background-color: #abaab73d;
+  font-family: Arial, sans-serif;
+
+}
+
+h2 {
+  color: #2e3e3d
+}
+
+/*Kontaktformular*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #8498ad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #979a9f;
+}
+
+/*Navigationsleiste -->*/
+nav {
+  background-color: #333;
+  /* Hintergrundfarbe der Navigationsleiste */
+}
+
+nav ul {
+  list-style-type: none;
+  /* Keine Aufzählungszeichen */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  /* Elemente nebeneinander anzeigen */
+}
+
+nav ul li a {
+  color: white;
+  /* Textfarbe der Links */
+  padding: 14px 20px;
+  /* Innenabstand */
+  text-decoration: none;
+  /* Unterstreichung entfernen */
+  display: inline-block;
+  /* Links als Blockelemente */
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  /* Hintergrundfarbe beim Hover */
+}
+
+
+/*Burger-Menü*/
+.burger-menu {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 30px;
+  margin: 20px;
+}
+
+.line {
+  height: 5px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+.nav {
+  display: none;
+  /* Das Menü ist zunächst ausgeblendet */
+  background-color: #333;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  border-bottom: 1px solid #444;
+  /* Trennlinien zwischen den Links */
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.nav ul li a:hover {
+  background-color: #555;
+  /* Hintergrundfarbe beim Hover */
+}
